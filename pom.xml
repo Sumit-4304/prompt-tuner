@@ -40,7 +40,7 @@
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jackson.version>2.17.2</jackson.version>
+        <jackson.version>2.18.11</jackson.version>
         <junit.version>5.10.3</junit.version>
         <spring-ai.version>1.0.0</spring-ai.version>
     </properties>
@@ -57,10 +57,13 @@
                 <artifactId>prompt-tuner-spring-ai</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <!-- Imported before Spring AI's BOM so every Jackson module uses the patched version -->
             <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
+                <groupId>com.fasterxml.jackson</groupId>
+                <artifactId>jackson-bom</artifactId>
                 <version>${jackson.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.springframework.ai</groupId>
