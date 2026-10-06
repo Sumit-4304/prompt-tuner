@@ -48,7 +48,7 @@ public final class RandomSearchFewShot<I, O> implements Optimizer<I, O> {
         Random random = new Random(seed);
         List<String> log = new ArrayList<>();
 
-        Predict<I, O> best = null;
+        Predict<I, O> best = student;
         double bestScore = -1;
 
         for (int i = 0; i < candidates + 2; i++) {
