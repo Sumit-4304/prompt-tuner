@@ -1,0 +1,48 @@
+{"input": {"message": "I was charged twice for my March subscription."}, "output": {"category": "BILLING", "priority": "HIGH"}}
+{"input": {"message": "Can I get a GST invoice for last month's payment?"}, "output": {"category": "BILLING", "priority": "MEDIUM"}}
+{"input": {"message": "Your system debited Rs 4,999 after I cancelled my plan. I want a refund."}, "output": {"category": "BILLING", "priority": "HIGH"}}
+{"input": {"message": "How much does it cost to add 3 more users to our plan?"}, "output": {"category": "BILLING", "priority": "MEDIUM"}}
+{"input": {"message": "The export button says 'upgrade to Pro'. We are on Basic."}, "output": {"category": "BILLING", "priority": "MEDIUM"}}
+{"input": {"message": "My card was declined but the money left my bank account."}, "output": {"category": "BILLING", "priority": "HIGH"}}
+{"input": {"message": "Please change the company name on our invoices to Sharma Traders Pvt Ltd."}, "output": {"category": "BILLING", "priority": "MEDIUM"}}
+{"input": {"message": "Why did my renewal price go up from 1,200 to 1,500?"}, "output": {"category": "BILLING", "priority": "MEDIUM"}}
+{"input": {"message": "I got charged for the annual plan but I chose monthly."}, "output": {"category": "BILLING", "priority": "HIGH"}}
+{"input": {"message": "Do you offer a discount for NGOs?"}, "output": {"category": "BILLING", "priority": "MEDIUM"}}
+{"input": {"message": "I can't log in, it says my password is wrong even after a reset."}, "output": {"category": "ACCOUNT", "priority": "HIGH"}}
+{"input": {"message": "How do I change the email address on my account?"}, "output": {"category": "ACCOUNT", "priority": "MEDIUM"}}
+{"input": {"message": "The 2FA code never arrives on my phone, I'm locked out."}, "output": {"category": "ACCOUNT", "priority": "HIGH"}}
+{"input": {"message": "Please remove my ex-employee Rahul from our workspace."}, "output": {"category": "ACCOUNT", "priority": "MEDIUM"}}
+{"input": {"message": "I want to delete my account and all my data."}, "output": {"category": "ACCOUNT", "priority": "MEDIUM"}}
+{"input": {"message": "The login page shows 'error 500' and I can't get in at all."}, "output": {"category": "ACCOUNT", "priority": "HIGH"}}
+{"input": {"message": "Can I transfer ownership of the workspace to my partner?"}, "output": {"category": "ACCOUNT", "priority": "MEDIUM"}}
+{"input": {"message": "I changed my phone number and the OTP still goes to the old one. Can't sign in."}, "output": {"category": "ACCOUNT", "priority": "HIGH"}}
+{"input": {"message": "Add my accountant as a read-only user please."}, "output": {"category": "ACCOUNT", "priority": "MEDIUM"}}
+{"input": {"message": "My account got locked after too many attempts."}, "output": {"category": "ACCOUNT", "priority": "HIGH"}}
+{"input": {"message": "The PDF export cuts off the last line of every invoice."}, "output": {"category": "BUG", "priority": "MEDIUM"}}
+{"input": {"message": "Since yesterday's update the dashboard totals show 0."}, "output": {"category": "BUG", "priority": "MEDIUM"}}
+{"input": {"message": "All my invoices from 2024 have disappeared!"}, "output": {"category": "BUG", "priority": "HIGH"}}
+{"input": {"message": "The app crashes when I open the reports tab on Android."}, "output": {"category": "BUG", "priority": "MEDIUM"}}
+{"input": {"message": "Dates show as MM/DD even though I selected DD/MM."}, "output": {"category": "BUG", "priority": "MEDIUM"}}
+{"input": {"message": "I saved a customer and now the record is gone."}, "output": {"category": "BUG", "priority": "HIGH"}}
+{"input": {"message": "Search doesn't find invoices by number anymore, it used to work."}, "output": {"category": "BUG", "priority": "MEDIUM"}}
+{"input": {"message": "The tax column is blank on printed invoices."}, "output": {"category": "BUG", "priority": "MEDIUM"}}
+{"input": {"message": "Bulk upload of 500 items failed and deleted the items I already had."}, "output": {"category": "BUG", "priority": "HIGH"}}
+{"input": {"message": "Payment reminder emails are going out twice to my customers."}, "output": {"category": "BUG", "priority": "MEDIUM"}}
+{"input": {"message": "How do I add my company logo to invoices?"}, "output": {"category": "HOW_TO", "priority": "LOW"}}
+{"input": {"message": "Where can I see which invoices are unpaid?"}, "output": {"category": "HOW_TO", "priority": "LOW"}}
+{"input": {"message": "How do I record a partial payment?"}, "output": {"category": "HOW_TO", "priority": "LOW"}}
+{"input": {"message": "Can I set up recurring invoices for monthly clients?"}, "output": {"category": "HOW_TO", "priority": "LOW"}}
+{"input": {"message": "How do I export my data to Excel?"}, "output": {"category": "HOW_TO", "priority": "LOW"}}
+{"input": {"message": "What's the shortcut to duplicate an invoice?"}, "output": {"category": "HOW_TO", "priority": "LOW"}}
+{"input": {"message": "How do I switch the currency to USD for a foreign client?"}, "output": {"category": "HOW_TO", "priority": "LOW"}}
+{"input": {"message": "Where do I enter my GSTIN?"}, "output": {"category": "HOW_TO", "priority": "LOW"}}
+{"input": {"message": "How can I send an invoice on WhatsApp?"}, "output": {"category": "HOW_TO", "priority": "LOW"}}
+{"input": {"message": "Please add a dark mode."}, "output": {"category": "FEATURE_REQUEST", "priority": "LOW"}}
+{"input": {"message": "It would be great if customers could pay by UPI directly from the invoice."}, "output": {"category": "FEATURE_REQUEST", "priority": "LOW"}}
+{"input": {"message": "We need Tally integration, any plans?"}, "output": {"category": "FEATURE_REQUEST", "priority": "LOW"}}
+{"input": {"message": "Can you add Hindi language support?"}, "output": {"category": "FEATURE_REQUEST", "priority": "LOW"}}
+{"input": {"message": "Please allow more than 5 custom fields per invoice."}, "output": {"category": "FEATURE_REQUEST", "priority": "LOW"}}
+{"input": {"message": "I wish the mobile app worked offline."}, "output": {"category": "FEATURE_REQUEST", "priority": "LOW"}}
+{"input": {"message": "Add an option to email me a sales report every Monday."}, "output": {"category": "FEATURE_REQUEST", "priority": "LOW"}}
+{"input": {"message": "Would love a Zoho Books import tool."}, "output": {"category": "FEATURE_REQUEST", "priority": "LOW"}}
+{"input": {"message": "Please support multiple GSTINs in one workspace."}, "output": {"category": "FEATURE_REQUEST", "priority": "LOW"}}

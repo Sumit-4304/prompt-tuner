@@ -1,0 +1,9 @@
+PromptTuner
+Copyright 2026 The PromptTuner Authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The design of PromptTuner (signatures, bootstrapped few-shot demos and
+metric-driven prompt optimization) is inspired by DSPy
+(https://github.com/stanfordnlp/dspy), which is distributed under the MIT License.
+PromptTuner is an independent Java implementation and contains no DSPy source code.
